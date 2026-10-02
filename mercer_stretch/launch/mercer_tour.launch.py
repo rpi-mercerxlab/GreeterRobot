@@ -51,12 +51,12 @@ def generate_launch_description():
 
     map_path_param = DeclareLaunchArgument(
         'map',
-        default_value=os.path.join("/home/hello-robot/stretch_user/maps", "Mercer_Lab_2026.yaml"),
+        default_value=os.path.join("/home/hello-robot/stretch_user/maps", "mercer_lab.yaml"),
         description='Full path to the map.yaml file to use for navigation')
 
     route_param = DeclareLaunchArgument(
         'route_file',
-        default_value="Mercer_Room_Tour.json",
+        default_value="mercer_lab_route.json",
         description='Relative path route file to use for navigation')
 
     params_file_param = DeclareLaunchArgument(
