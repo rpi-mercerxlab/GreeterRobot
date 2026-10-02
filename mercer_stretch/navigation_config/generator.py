@@ -37,9 +37,17 @@ if __name__ == "__main__":
         stops[id]["x"] = round(origin["x"] + (stops[id]["x"] * resolution), 2)
         stops[id]["y"] = round(origin["y"] + (stops[id]["y"] * resolution), 2)
 
+        for key in stops[id]:
+            if type(stops[id][key]) == int:
+                stops[id][key] = float(stops[id][key])
+
     start["x"] = round(origin["x"] + (start["x"] * resolution), 2)
     start["y"] = round(origin["y"] + (start["y"] * resolution), 2)
     start["w"] = 1.0
     start["delay"] = False
     start["id"] = "origin"
+    for key in start:
+        if type(start[key]) == int:
+            start[key] = float(start[key])
+
     json.dump({"origin": start, "Poses": stops}, output, indent=2)

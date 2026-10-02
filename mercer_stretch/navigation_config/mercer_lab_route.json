@@ -2,7 +2,7 @@
   "origin": {
     "x": -1.8,
     "y": 6.9,
-    "z": 0,
+    "z": 0.0,
     "w": 1.0,
     "delay": false,
     "id": "origin"
@@ -11,7 +11,7 @@
     "Storefront": {
       "x": -0.95,
       "y": 4.35,
-      "z": 0,
+      "z": 0.0,
       "w": 1.0,
       "id": "storefront",
       "delay": false
@@ -19,7 +19,7 @@
     "Tables": {
       "x": -2.4,
       "y": 0.7,
-      "z": 0,
+      "z": 0.0,
       "w": 1.0,
       "id": "tables",
       "delay": false
@@ -27,7 +27,7 @@
     "Workstations": {
       "x": 0.25,
       "y": -6.15,
-      "z": 0,
+      "z": 0.0,
       "w": 1.0,
       "id": "workstations",
       "delay": false
@@ -35,7 +35,7 @@
     "Logo": {
       "x": -2.45,
       "y": -10.2,
-      "z": 0,
+      "z": 0.0,
       "w": 1.0,
       "id": "logoandhammer",
       "delay": false
@@ -43,7 +43,7 @@
     "PCBPrinter": {
       "x": 3.1,
       "y": -3.25,
-      "z": 0,
+      "z": 0.0,
       "w": 1.0,
       "id": "pcbprinter",
       "delay": false
@@ -51,7 +51,7 @@
     "End": {
       "x": -0.95,
       "y": 4.35,
-      "z": 0,
+      "z": 0.0,
       "w": 1.0,
       "id": "end",
       "delay": false
