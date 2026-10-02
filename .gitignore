@@ -1,4 +1,9 @@
 .env
+
+# ROS2-generated files
 /build
 /install
 /log
+
+# Config files created by generator
+generated_route.json
